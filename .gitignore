@@ -25,6 +25,8 @@ htmlcov/
 
 # Generated datasets and local analysis outputs
 *.csv
+!data/
+!data/*.csv
 
 # Large local/raw data
 archive/data/
