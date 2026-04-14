@@ -1,0 +1,15 @@
+{
+  "data_dir": "data",
+  "epochs": 20,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "hidden_dim": 128,
+  "num_gnn_layers": 3,
+  "mlp_hidden_dim": 256,
+  "dropout": 0.1,
+  "loss": "weighted_bce",
+  "monitor": "val_pr_auc",
+  "device": "cpu",
+  "pos_weight": 8.88950252532959
+}
