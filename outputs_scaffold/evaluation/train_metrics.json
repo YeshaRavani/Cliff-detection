@@ -1,0 +1,14 @@
+{
+  "pr_auc": 0.9429313298933868,
+  "roc_auc": 0.9906759344382431,
+  "f1": 0.8594033999786165,
+  "precision": 0.8038,
+  "recall": 0.923271307144498,
+  "threshold": 0.625,
+  "tn": 36426,
+  "fp": 981,
+  "fn": 334,
+  "tp": 4019,
+  "split": "train",
+  "checkpoint": "outputs_scaffold/best_model.pt"
+}
