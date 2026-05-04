@@ -1,0 +1,38 @@
+/opt/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:22: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/opt/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+============================================================
+  Dual-Tower Benchmark Model
+  (Two independent GNN encoders — no weight sharing)
+============================================================
+  Trainable parameters: 280,065
+  Device: cpu
+  Output dir: outputs_benchmark
+
+Epoch 001 | train_loss=0.8196 | val_pr_auc=0.7082 | val_f1=0.6958 | val_thr=0.72 | val_recall=0.6844
+Epoch 002 | train_loss=0.4991 | val_pr_auc=0.2316 | val_f1=0.1744 | val_thr=0.95 | val_recall=0.5369
+Epoch 003 | train_loss=0.4465 | val_pr_auc=0.6190 | val_f1=0.5591 | val_thr=0.95 | val_recall=0.5820
+Epoch 004 | train_loss=0.4271 | val_pr_auc=0.7002 | val_f1=0.6354 | val_thr=0.88 | val_recall=0.6107
+Epoch 005 | train_loss=0.4071 | val_pr_auc=0.7135 | val_f1=0.6855 | val_thr=0.92 | val_recall=0.7951
+Epoch 006 | train_loss=0.3980 | val_pr_auc=0.8212 | val_f1=0.7834 | val_thr=0.75 | val_recall=0.8525
+Epoch 007 | train_loss=0.3840 | val_pr_auc=0.7993 | val_f1=0.7529 | val_thr=0.78 | val_recall=0.7992
+Epoch 008 | train_loss=0.3850 | val_pr_auc=0.7752 | val_f1=0.7410 | val_thr=0.82 | val_recall=0.8033
+Epoch 009 | train_loss=0.3659 | val_pr_auc=0.8613 | val_f1=0.7941 | val_thr=0.85 | val_recall=0.7746
+Epoch 010 | train_loss=0.3624 | val_pr_auc=0.8295 | val_f1=0.7683 | val_thr=0.88 | val_recall=0.8156
+Epoch 011 | train_loss=0.3679 | val_pr_auc=0.8656 | val_f1=0.7792 | val_thr=0.80 | val_recall=0.8607
+Epoch 012 | train_loss=0.3533 | val_pr_auc=0.8852 | val_f1=0.8189 | val_thr=0.90 | val_recall=0.8156
+Epoch 013 | train_loss=0.3572 | val_pr_auc=0.8667 | val_f1=0.7906 | val_thr=0.78 | val_recall=0.8279
+Epoch 014 | train_loss=0.3437 | val_pr_auc=0.9043 | val_f1=0.8282 | val_thr=0.88 | val_recall=0.8197
+Epoch 015 | train_loss=0.3402 | val_pr_auc=0.7773 | val_f1=0.6918 | val_thr=0.95 | val_recall=0.7131
+Epoch 016 | train_loss=0.3465 | val_pr_auc=0.8988 | val_f1=0.8300 | val_thr=0.90 | val_recall=0.8402
+Epoch 017 | train_loss=0.3371 | val_pr_auc=0.8836 | val_f1=0.8198 | val_thr=0.75 | val_recall=0.8484
+Epoch 018 | train_loss=0.3321 | val_pr_auc=0.9032 | val_f1=0.8378 | val_thr=0.85 | val_recall=0.8361
+Epoch 019 | train_loss=0.3025 | val_pr_auc=0.9163 | val_f1=0.8330 | val_thr=0.70 | val_recall=0.8689
+Epoch 020 | train_loss=0.2976 | val_pr_auc=0.9032 | val_f1=0.8387 | val_thr=0.90 | val_recall=0.8525
+
+Best validation checkpoint loaded for test evaluation.
+Test PR-AUC=0.9021 | ROC-AUC=0.9876 | F1=0.8114 | Precision=0.7576 | Recall=0.8734 | Threshold=0.70
+Saved checkpoint : outputs_benchmark/best_model.pt
+Saved history    : outputs_benchmark/train_history.json
+Saved test metrics: outputs_benchmark/test_metrics.json
